@@ -1,0 +1,99 @@
+body, html {font-family:Geneva, Tahoma, sans-serif;
+          height:100%;
+          margin:0;
+          background-color:lavender;}
+
+/*Header Section*/
+
+.bg {background-image:url("images/header6.JPG");
+     height:70%;
+     position: relative;
+     background-position:center;
+     background-repeat:repeat;
+     background-size:cover;}
+
+ul {list-style-type:none;
+   margin:auto;
+   padding-left:470px;
+   overflow:hidden;
+   background-color:indigo;
+   position:sticky;
+   top:0;}
+
+
+li {float:left;}
+
+li a {display:block;
+      color:white;
+      text-align:center;
+      padding:14px 16px;
+      text-decoration:none;
+      background-color:none;
+      font-size:17px;}
+
+li a:hover {background-color:gray;}
+
+/*CONTENT SECTION*/
+
+.article {width:80%;
+       margin:auto;
+       padding:auto;
+       background-color:lavenderblush;
+       border-radius:25px;
+       margin-top:15px;
+       padding-top:10px;
+       padding-bottom:10px;}
+
+h1 {text-align:center;
+    color:black;
+    font-family:"Gill Sans", "Gill Sana MT", sans-serif;
+    font-weight:bold;
+    font-size:40px;
+    background-color:pink;
+    border-radius:25px;
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+    padding:auto;
+    padding-top:10px;
+    padding-bottom:10px;}
+
+h2 {text-align:center;
+    color:black;
+    font-size:20px;
+    font-style:italic;
+    font-family:Geneva, Tahoma, sans-serif;
+    line-height:2.5;}
+
+p {text-style:normal;
+    font-size:15px;
+   text-align:center;}
+
+* {box-sizing: border-box;}
+
+.row::after {clear:both;
+             display:inline-block;}
+
+.center {display:block;
+         margin-left:auto;
+         margin-right:auto;
+         width:50%;}
+
+.container {float:left;
+  	    width:33.33%;
+            padding:10px;
+            margin-left:auto;
+            margin-right:auto;}
+
+
+/*FOOTER SECTION*/
+
+.main-footer {text-align:center;
+              clear:both;
+              padding:20px;}
+
+.footer {font-size:15px;}
+
+.link {color:black;
+       text-decoration:underline;}
+
